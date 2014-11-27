@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+}
+nav{
+    background-color: black;
+    color: white;
+    height: 20px;
+    margin: 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+nav a{
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+.infobox{
+    display: inline-block;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0%;
+    margin-top: 5%;
+    float: right;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /*    Firefox, other Gecko */
+    box-sizing: border-box;     /*    Opera/IE 8+ */
+    text-align: center;
+    padding: 0%;
+/*    border-radius: 10px;*/
+/*    border: solid #000 2pt;*/
+    width: 40%;
+    height: 30%;
+/*    background: #ffffff;*/
+}
+.infobox h2{
+    font-style: bold;
+    font-size: 30pt;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: left;
+    margin-top: -2%;
+}
+.infobox p{
+    overflow: scroll;
+}
+.bio{
+    display: inline-block;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0%;
+    margin-top: 5%;
+    float: right;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    text-align: center;
+    padding: 5%;
+    border-radius: 10px;
+    border: solid #000 2pt;
+    width: 40%;
+    height: 30%;
+    background: #ffffff;
+    overflow: scroll;    
+}
+.round-info {
+    display: inline-block;
+/*    display: table-cell;*/
+/*    background: url(circle_red.svg);*/
+    border-radius: 50%;
+    border: 2px solid #000;
+    background: #ff0000;
+/*    background-size: 100% 100%;*/
+    box-shadow: 10px 10px 50px 10px #888888;
+    height: 150px;
+    width: 150px;
+    line-height: 200px;
+    margin-left: 2%;
+    margin-right: 0;
+    text-decoration: none;
+    color: black;
+}
+.round-info .inner {
+    position: relative;
+    text-align: center;
+    height: 150px;
+    width: 125px;
+    display: table-cell;
+    vertical-align: middle;
+    line-height: normal;
+    left: 12px;
+}
+.round-info .inner h3{
+    font-weight: bold;
+    color: black;
+}
+
+
+body {
+    background: grey;
+}
+.main-event {
+    margin: 0;
+    width: 95%;
+    margin-left: 2.5%;
+    background: #FFEBCD;
+    height: 100%;
+}
+.main-event .title{
+
+    line-height: normal;
+    font-size: 40pt;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: -10px;
+}
+.main-event .subtitle{
+    display: block;
+    line-height: normal;
+    font-size: 20pt;
+    margin-left:7%;
+    margin-right:0;
+
+}
+.Info {
+    display: block;
+    float: right;
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0%;
+    margin-top: 5%;
+    width: 50%;
+
+}
+.main-event .pic-container{
+    display: inline-block;
+    float: left;
+    height:100%;
+    width:35%;
+    margin-left: 5%;
+    margin-right: 0%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+
+}
+.profile-pic{
+    height:200px;
+    width:200px;
+    margin-left: 50px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    border: solid 2pt #000;
+    border-radius: 50%;
+}
+.footer{
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    color: #ffffff;
+    height: 8%;
+    background: #000;
+}
