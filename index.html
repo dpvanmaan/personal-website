@@ -2,12 +2,16 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="css/personal_site.css"/>
+     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
+     <script src="js/infoapp.js"></script>
   </head>
-  <body>
+  <body ng-app="infodisplay">
+    
     <nav>
       	<a href="#">Home</a>
-	<a href="#">Resume</a>
+<!--	<a href="#">Resume</a> -->
 	<a href="#">Contact</a>
+	<a href="res/vanmaanen-resume.pdf" target="_blank" class="button">Print Resume</a>
     </nav>
     <div class="main-event">
       <div class="pic-container">
@@ -15,29 +19,37 @@
 	<div class="title">David vanMaanen</div>
 	<div class="subtitle">Programmer/ Data Analyst</div>
       </div>
-      <div class="infobox">
-	<h2 > About Me</h2>
-	<p> A bio goes Here</p>
-      </div>
-      <div class="Info">
-	<a href="#" class="round-info">
-	  <div class="inner">
-	    <h3>Education</h3>
-	    <p>My learning background.</p>
-	  </div>
-	</a>
-	<a href="#" class="round-info">
-	  <div class="inner">
-	    <h3>Experience</h3>
-	    <p>What I have done in the past.</p>
-	  </div>
-	</a>
-	<a href="#" class="round-info">
-	  <div class="inner">
-	    <h3 >Skills</h3>
-	    <p>A general list of skills I have aquired through my education and experience.</p>
-	  </div>
-	</a>
+      <div ng-controller="infolist">
+	<div class="infobox">
+	  <h2> {{info_dat[select_infoInd].title}}</h2>
+	  <p> {{info_dat[select_infoInd].longDesc}}</p>
+	</div>
+	<div class="Info">
+	  <a ng-repeat="item in info_dat" href="#" class="round-info" ng-show="($index!=select_infoInd)" ng-mouseover="hover_circl_on($index)" ng-mouseleave="hover_circl_off($index)" ng-click="InfoClick($index)">
+	    <div class="inner">
+	      <h3>{{item.title}}</h3>
+	      <p ng-show="item.hovered">{{item.shortDesc}}</p>
+	    </div>
+	  </a>
+	  <!--- <a href="#" class="round-info">
+	    <div class="inner">
+	      <h3>Education</h3>
+	      <p>My learning background.</p>
+	    </div>
+	  </a>
+	  <a href="#" class="round-info">
+	    <div class="inner">
+	      <h3>Experience</h3>
+	      <p>What I have done in the past.</p>
+	    </div>
+	  </a>
+	  <a href="#" class="round-info">
+	    <div class="inner">
+	      <h3 >Skills</h3>
+	      <p>A general list of skills I have aquired through my education and experience.</p>
+	    </div>
+	  </a>-->
+	</div>
       </div>
     </div>
       
@@ -53,4 +65,5 @@
       </div>
     </div>
   </body>
+
 </html>
