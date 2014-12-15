@@ -4,15 +4,29 @@ body{
 nav{
     background-color: black;
     color: white;
-    height: 20px;
+    height: 30px;
     margin: 0;
     width: 100%;
     position: fixed;
     top: 0;
 }
 nav a{
+
     color: white;
     margin: 10px;
+    text-decoration: none;
+
+ }
+nav a.button{
+    border-color: #111111;
+    padding: 3px;
+    border: solid 2pt;
+    border-radius: 10pt;
+    background-color: #448855;
+    color: #eeeeee;
+    float: right;
+    margin: 10px;
+    margin-top: 1px;
     text-decoration: none;
 }
 .infobox{
@@ -68,7 +82,7 @@ nav a{
 /*    background: url(circle_red.svg);*/
     border-radius: 50%;
     border: 2px solid #000;
-    background: #ff0000;
+    background: #cc3366;
 /*    background-size: 100% 100%;*/
     box-shadow: 10px 10px 50px 10px #888888;
     height: 150px;
