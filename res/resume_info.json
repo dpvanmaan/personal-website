@@ -1,0 +1,20 @@
+{
+    "InfoArray":[
+	{"title": "About Me",
+	 "shortDesc": "My brief bio",
+	 "longDesc": "TBM"
+	},
+	{"title": "Education",
+	 "shortDesc": "My learning background.",
+	 "longDesc": "TBM"
+	},
+	{"title": "Experience",
+	 "shortDesc": "What I have done in the past.",
+	 "longDesc": "TBM"
+	},
+	{"title": "Skills",
+	 "shortDesc": "A general list of skills I have aquired through my education and experience.",
+	 "longDesc": "TBM"
+	}
+    ]
+}
