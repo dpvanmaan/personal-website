@@ -56,7 +56,20 @@ nav a.button{
 }
 .infobox p{
     overflow: scroll;
+    height: 80%;
 }
+.infobox dt{
+    font-style: bold;
+    text-align:left;
+    font-size: 20pt;
+}
+.infobox dd{
+   
+    text-align:left;
+    font-size: 14pt;
+}
+
+
 .bio{
     display: inline-block;
     margin-left: 10%;
