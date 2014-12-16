@@ -18,12 +18,13 @@ nav a{
 
  }
 nav a.button{
-    border-color: #111111;
+
     padding: 3px;
     border: solid 2pt;
     border-radius: 10pt;
-    background-color: #448855;
-    color: #eeeeee;
+    color: #C7C7C7;
+    background-color: #334273;
+    border-color: #3D3D3E;
     float: right;
     margin: 10px;
     margin-top: 1px;
@@ -98,7 +99,7 @@ nav a.button{
 /*    background: url(circle_red.svg);*/
     border-radius: 50%;
     border: 2px solid #000;
-    background: #cc3366;
+    background: #334273;
 /*    background-size: 100% 100%;*/
     box-shadow: 10px 10px 50px 10px #888888;
     height: 150px;
@@ -107,7 +108,7 @@ nav a.button{
     margin-left: 2%;
     margin-right: 0;
     text-decoration: none;
-    color: black;
+    color: #A0A2A9;
 }
 .round-info .inner {
     position: relative;
@@ -121,7 +122,7 @@ nav a.button{
 }
 .round-info .inner h3{
     font-weight: bold;
-    color: black;
+    color: #A0A2A9;
 }
 
 
