@@ -54,6 +54,9 @@ nav a.button{
     text-align: left;
     margin-top: -2%;
 }
+.infobox ul li.NoBullet{
+    list-style-type: none;
+}
 .infobox p{
     overflow: scroll;
     height: 80%;
