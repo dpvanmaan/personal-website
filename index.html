@@ -3,6 +3,7 @@
   <head>
     <link rel="stylesheet" type="text/css" href="css/personal_site.css"/>
      <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
+     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular-sanitize.js"></script>
      <script src="js/infoapp.js"></script>
   </head>
   <body ng-app="infodisplay">
@@ -21,7 +22,7 @@
       <div ng-controller="infolist">
 	<div class="infobox">
 	  <h2> {{info_dat[select_infoInd].title}}</h2>
-	  <p> {{info_dat[select_infoInd].longDesc}}</p>
+	  <p ng-bind-html="info_dat[select_infoInd].longDesc"></p>
 	</div>
 	<div class="Info">
 	  <a ng-repeat="item in info_dat" href="#" class="round-info" ng-show="($index!=select_infoInd)" ng-mouseover="hover_circl_on($index)" ng-mouseleave="hover_circl_off($index)" ng-click="InfoClick($index)">
@@ -37,9 +38,10 @@
 
     <div class="footer">
       <div class="social-widgets">
-	<a href="#">G+</a>
-	<a href="#">LinkIn</a>
-	<a href="#">Github</a>
+	<a href="mailto:david@vanmaanen.us"><img title="david@vanmaanen.us" alt="Email: david@vanmaanen.us" src="res/social_buttons/email.png"></a>
+	<a href="https://plus.google.com/106201982480440885014/posts" target="_blank"><img title="Google+" alt="Google+" src="res/social_buttons/googleplus.png"></a>
+	<a href="http://www.linkedin.com/in/dpvanmaanen" target="_blank"><img title="LinkedIn" alt="LinkedIn" src="res/social_buttons/linkedin.png"></a>
+	<a href="https://github.com/dpvanmaan" target="_blank"><img title="GitHub" alt="GitHub" src="res/social_buttons/github.png"></a>
       </div>
       <div class="copyr">
 	Copyright 2014 David vanMaanen

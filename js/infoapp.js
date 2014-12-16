@@ -1,6 +1,6 @@
 (function () {
 
-    var app= angular.module("infodisplay",[]);
+    var app= angular.module("infodisplay",['ngSanitize']);
     app.run(['$rootScope','$http',function($rootscope,$http){
 	$rootscope.info_dat=[];
 	$http({
