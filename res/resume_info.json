@@ -2,18 +2,18 @@
     "InfoArray":[
 	{"title": "About Me",
 	 "shortDesc": "My brief bio",
-	 "longDesc": "TBM"
+	 "longDesc": "I am currently seeking exciting oppurtunities in order to apply my techincal skills. Currently, I am a graduate student at Carnegie Mellon University in the Program in Neural Computation. My research entailed a creating a mathematical models of neural systems. I then simulate these models using julia, python, and other programming languages in order, in order to make hypothesizes about neural systems. However, I plan to leave academy with a Masters degree. I believe that my strong skills in programming and data analysis coupled with my interest in technology will make me a strong canidate for a variety of positions. "
 	},
 	{"title": "Education",
 	 "shortDesc": "My learning background.",
-	 "longDesc": "TBM"
+	 "longDesc": " <dl> <dt> Carnegie Mellon University</dt> <dd> <b>MS in Neural Compuation</b> <i>Aug 2013- Expected May 2015</i>  </dd> <dt> Pennsylvania State University</dt> <dd> <b> BS in Physics, Minor in Math</b> <i>Aug 2005-Aug 2009</i></dd>"
 	},
 	{"title": "Experience",
 	 "shortDesc": "What I have done in the past.",
 	 "longDesc": "TBM"
 	},
 	{"title": "Skills",
-	 "shortDesc": "A general list of skills I have aquired through my education and experience.",
+	 "shortDesc": "A general list of skills I have acquired through my education and experience.",
 	 "longDesc": "TBM"
 	}
     ]
