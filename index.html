@@ -76,10 +76,6 @@
       </div>
       </div>
       <div ng-controller="infolist">
-	<div class="infobox">
-	  <h2> {{info_dat[select_infoInd].title}}</h2>
-	  <p ng-bind-html="info_dat[select_infoInd].longDesc"></p>
-	</div>
 	<div class="Info">
 	  <a ng-repeat="item in info_dat" href="#" class="round-info" ng-show="($index!=select_infoInd)" ng-mouseover="hover_circl_on($index)" ng-mouseleave="hover_circl_off($index)" ng-click="InfoClick($index)">
 	    <div class="inner">
@@ -88,6 +84,11 @@
 	    </div>
 	  </a>
 	</div>
+	<div class="infobox">
+	  <h2> {{info_dat[select_infoInd].title}}</h2>
+	  <p ng-bind-html="info_dat[select_infoInd].longDesc"></p>
+	</div>
+
       </div>
     </div>
       
