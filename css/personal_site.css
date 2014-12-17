@@ -217,5 +217,8 @@ body {
 .copyr{
     display: block;
     text-align: center;
-    margin: 10px;
+    margin: 9px;
+}
+.copyr a{
+    color: white;
 }
