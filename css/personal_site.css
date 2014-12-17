@@ -1,5 +1,7 @@
 body{
     margin: 0;
+    background: grey;
+    overflow: auto;
 }
 nav{
     background-color: black;
@@ -45,7 +47,7 @@ nav a.button{
 /*    border-radius: 10px;*/
 /*    border: solid #000 2pt;*/
     width: 40%;
-    height: 30%;
+    height: 40%;
 /*    background: #ffffff;*/
 }
 .infobox h2{
@@ -61,6 +63,12 @@ nav a.button{
 .infobox p{
     overflow: scroll;
     height: 80%;
+    background : linear-gradient( #FFEBCD 30%, rgba(255, 255, 255, 0)), linear-gradient(rgba(255, 255, 255, 0),  #FFEBCD 70%) 0 100%, radial-gradient(farthest-side at 50% 0, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), radial-gradient(farthest-side at 50% 100%, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)) 0 100%;
+
+    background-repeat : no-repeat;
+    background-color :  #FFEBCD;
+    background-size : 100% 40px, 100% 40px, 100% 14px, 100% 14px;
+    background-attachment : local, local, scroll, scroll;
 }
 .infobox dt{
     font-style: bold;
@@ -126,15 +134,14 @@ nav a.button{
 }
 
 
-body {
-    background: grey;
-}
+
 .main-event {
     margin: 0;
     width: 95%;
     margin-left: 2.5%;
     background: #FFEBCD;
     height: 100%;
+    overflow-y: hidden;
 }
 .main-event .title{
 
@@ -205,6 +212,7 @@ body {
     margin: 10px;
     
 }
+
 .social-widgets table, td{
     display: inline-block;
     color: black;
@@ -213,7 +221,10 @@ body {
     border-collapse: collapse;
     
 }
-
+.social-widgets th{
+    background-color: #334273;
+    color: #A0A2A9;
+}
 .copyr{
     display: block;
     text-align: center;
