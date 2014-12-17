@@ -197,17 +197,25 @@ body {
 .social-widgets{
     display: block;
     float: left;
-
 }
 .social-widgets a{
     display: inline-block;
-    color: white;
+    color: black;
     text-decoration: none;
     margin: 10px;
     
 }
+.social-widgets table, td{
+    display: inline-block;
+    color: black;
+    margin: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+
 .copyr{
     display: block;
-    float: right;
+    text-align: center;
     margin: 10px;
 }

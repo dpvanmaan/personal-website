@@ -23,7 +23,6 @@
      <script src="js/infoapp.js"></script>
   </head>
   <body ng-app="infodisplay">
-    
     <nav>
       	<a href="#">Home</a>
 <!--	<a href="#">Contact</a>-->
@@ -34,6 +33,44 @@
 	<img class="profile-pic" alt="Pic of Me" src="res/profilepic.jpg" height="100" width="300">
 	<div class="title">David vanMaanen</div>
 	<div class="subtitle">Programmer/ Data Analyst</div>
+      <div class="social-widgets">
+	<table style="width:100%">
+	  <tr>
+	    <td><a href="mailto:david@vanmaanen.us"> 
+		<img title="david@vanmaanen.us"
+		     alt="Email: david@vanmaanen.us"
+		     src="res/social_buttons/email.png"></a></td>
+	    <td> <a href="mailto:david@vanmaanen.us">david@vanmaanen.us</a></td>
+	  </tr>
+	  <tr>
+	    <td><a href="https://plus.google.com/106201982480440885014/posts"
+		   target="_blank"><img title="Google+" alt="Google+"
+					src="res/social_buttons/googleplus.png">
+	    </a></td>
+	    <td><a href="https://plus.google.com/106201982480440885014/posts"
+		   target="_blank">Google +
+	    </a></td>
+	  </tr>
+	  
+	  <tr>
+	    <td><a href="http://www.linkedin.com/in/dpvanmaanen"
+		   target="_blank"><img title="LinkedIn" alt="LinkedIn"
+					src="res/social_buttons/linkedin.png">
+	    </a></td>
+	    <td><a href="http://www.linkedin.com/in/dpvanmaanen"
+		   target="_blank">Linkdin</a></td>
+	  </tr>
+	  
+	  <tr>
+	    <td>
+	      <a href="https://github.com/dpvanmaan" target="_blank"><img title="GitHub" alt="GitHub" src="res/social_buttons/github.png"></a>
+	    </td>
+	    <td>
+	      <a href="https://github.com/dpvanmaan" target="_blank">GitHub</a>
+	    </td>
+	  </tr>
+	</table>
+      </div>
       </div>
       <div ng-controller="infolist">
 	<div class="infobox">
@@ -53,14 +90,8 @@
       
 
     <div class="footer">
-      <div class="social-widgets">
-	<a href="mailto:david@vanmaanen.us"><img title="david@vanmaanen.us" alt="Email: david@vanmaanen.us" src="res/social_buttons/email.png"></a>
-	<a href="https://plus.google.com/106201982480440885014/posts" target="_blank"><img title="Google+" alt="Google+" src="res/social_buttons/googleplus.png"></a>
-	<a href="http://www.linkedin.com/in/dpvanmaanen" target="_blank"><img title="LinkedIn" alt="LinkedIn" src="res/social_buttons/linkedin.png"></a>
-	<a href="https://github.com/dpvanmaan" target="_blank"><img title="GitHub" alt="GitHub" src="res/social_buttons/github.png"></a>
-      </div>
       <div class="copyr">
-	Copyright 2014 David vanMaanen
+	&copy; 2014 David vanMaanen
       </div>
     </div>
   </body>
