@@ -1,12 +1,12 @@
 body{
     margin: 0;
     background: grey;
-    overflow: auto;
+    overflow: hidden;
 }
 nav{
     background-color: black;
     color: white;
-    height: 30px;
+    height: 5%;
     margin: 0;
     width: 100%;
     position: fixed;
@@ -140,8 +140,8 @@ nav a.button{
     width: 95%;
     margin-left: 2.5%;
     background: #FFEBCD;
-    height: 100%;
-    overflow-y: hidden;
+    height: 95%;
+    overflow-y: auto;
 }
 .main-event .title{
 
@@ -198,7 +198,7 @@ nav a.button{
     bottom:0;
     width: 100%;
     color: #ffffff;
-    height: 8%;
+    height: 5%;
     background: #000;
 }
 .social-widgets{
