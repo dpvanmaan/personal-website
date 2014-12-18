@@ -182,14 +182,14 @@ nav a.button{
 
 }
 .profile-pic{
-    height:200px;
+    height:252px;
     width:200px;
     margin-left: 50px;
-    -webkit-transform: rotate(180deg);
+/*    -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
     -o-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
-    transform: rotate(180deg);
+    transform: rotate(180deg);*/
     border: solid 2pt #000;
     border-radius: 50%;
 }
@@ -232,4 +232,4 @@ nav a.button{
 }
 .copyr a{
     color: white;
-}
+} 
