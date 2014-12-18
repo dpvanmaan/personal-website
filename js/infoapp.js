@@ -4,7 +4,7 @@
     app.run(['$rootScope','$http',function($rootscope,$http){
 	$rootscope.info_dat=[];
 	$http({
-	    url: '/res/resume_info.json',
+	    url: 'res/resume_info.json',
 	    method: 'GET',
 	}).success(function(data){
 	    $rootscope.info_dat=data.InfoArray;
