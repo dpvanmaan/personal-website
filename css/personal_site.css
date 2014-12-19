@@ -6,10 +6,11 @@ body{
 nav{
     background-color: black;
     color: white;
-    height: 5%;
+    height: 30px;
     margin: 0;
     width: 100%;
     position: fixed;
+    z-index: 2;
     top: 0;
 }
 nav a{
@@ -199,7 +200,9 @@ nav a.button{
     width: 100%;
     color: #ffffff;
     height: 5%;
+    min-height: 25px;
     background: #000;
+    z-index: 2;
 }
 .social-widgets{
     display: block;
