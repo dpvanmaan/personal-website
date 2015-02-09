@@ -35,11 +35,10 @@ nav a.button{
 }
 .infobox{
     display: inline-block;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-bottom: 0%;
     margin-top: 5%;
-    float: right;
     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
     -moz-box-sizing: border-box; /*    Firefox, other Gecko */
     box-sizing: border-box;     /*    Opera/IE 8+ */
@@ -47,8 +46,8 @@ nav a.button{
     padding: 0%;
 /*    border-radius: 10px;*/
 /*    border: solid #000 2pt;*/
-    width: 40%;
-    height: 50%;
+    width: 90%;
+    height: 80%;
 /*    background: #ffffff;*/
 }
 .infobox h2{
@@ -122,10 +121,11 @@ nav a.button{
 .round-info .inner {
     position: relative;
     text-align: center;
-    height: 150px;
-    width: 125px;
-    display: table-cell;
-    vertical-align: middle;
+/*    display: table-cell;*/
+/*    vertical-align: middle;*/
+    padding-bottom: 30%;
+    padding-top: 20%;
+    padding-left: 1%;
     line-height: normal;
     left: 12px;
 }
@@ -160,28 +160,76 @@ nav a.button{
     margin-right:0;
 
 }
-.Info {
-    display: block;
-    float: right;
-    display: inline-block;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 0%;
-    margin-top: 5%;
-    width: 50%;
+@media screen and (max-width: 400px){
+    .Info {
+	display: block;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 0%;
+	margin-top: 5%;
+	width: 100%;
+    }
+    .round-info{
+	width: 30%;
+	height: 0;
+	padding-bottom: 30%;
+    }
+    .round-info .inner{
+	width: 100%;
+	padding-bottom: 25%;
+	padding-top: 20%;
+	padding-left: 1%;
+	height: 100%;
+	left: 0;
+    }
+    .round-info .inner h3{
+	font-size: 10pt;
+    }
+    .infobox{
+	margin-left: 0;
+	margin-right: 0;
+	left: 0;
 
-}
-.main-event .pic-container{
-    display: inline-block;
-    float: left;
-    height:100%;
-    width:35%;
-    margin-left: 5%;
-    margin-right: 0%;
-    margin-bottom: 5%;
-    margin-top: 5%;
+    }
+    .main-event .pic-container{
+	height:100%;
+	width:100%;
+	margin-left: 5%;
+	margin-right: 0%;
+	margin-bottom: 5%;
+	margin-top: 5%;
 
+    }
 }
+@media screen and (min-width: 401px){
+    .Info {
+	display: block;
+	float: right;
+	display: inline-block;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 0%;
+	margin-top: 5%;
+	width: 50%;
+	
+    }
+    .round-info .inner{
+	height: 150px;
+	width: 125px;
+    }
+    .main-event .pic-container{
+	display: inline-block;
+	float: left;
+	height:100%;
+	width:35%;
+	margin-left: 5%;
+	margin-right: 0%;
+	margin-bottom: 5%;
+	margin-top: 5%;
+    }
+}
+
+
 .profile-pic{
     height:252px;
     width:200px;
