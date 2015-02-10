@@ -161,6 +161,14 @@ nav a.button{
 
 }
 @media screen and (max-width: 400px){
+    .main-event{
+	left-margin: 0;
+	width: 100%;
+    }
+    .nav {
+	height: 40px;
+    }
+    
     .Info {
 	display: block;
 	margin-left: 5%;
